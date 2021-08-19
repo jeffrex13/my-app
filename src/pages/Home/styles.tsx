@@ -6,11 +6,18 @@ const useStyles = makeStyles((theme: any) => ({
     width: "100vw",
     display: "flex",
     fontFamily: "",
+    alignContent: "center",
     textAlign: "center",
     "& p": {
       color: "#000",
       fontSize: "18px",
-      margin: "25% 0 0",
+      margin: "3rem 0 0",
+    },
+    "& h2": {
+      margin: "20% 0 0",
+    },
+    "& span": {
+      fontSize: "35px",
     },
     "& .inputField": {
       margin: "0.5rem auto",
@@ -21,13 +28,13 @@ const useStyles = makeStyles((theme: any) => ({
     margin: "30px 5px 0 15px !important",
     width: "300px",
     "& input ": {
-      color: "#A5B5BB",
+      color: "#000",
     },
     "& .MuiFormLabel-root": {
-      color: "#A5B5BB",
+      color: "#000",
     },
     "& label.Mui-focused": {
-      color: "#A5B5BB",
+      color: "000",
     },
     "& .MuiOutlinedInput-root": {
       "& fieldset": {
@@ -44,13 +51,14 @@ const useStyles = makeStyles((theme: any) => ({
   },
   button: {
     boxShadow: 'none',
-    marginTop: "30px !important",
+    marginTop: "35px !important",
     marginLeft: "0",
     backgroundColor: "transparent !important",
     border: "1px solid #485b71 !important",
     borderRadius: "0",
-    height: "55px",
+    height: "50px",
     color: "#3f51b5 !important",
+    padding: "0",
     "&:hover": {
       border: "1px solid #21094E !important",
       color: "#21094E 2important",

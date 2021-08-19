@@ -103,7 +103,7 @@ function Repositories() {
                             <Button
                               onClick={() => openInNewTab(value.html_url)}
                             >
-                              View
+                              Source
                             </Button>
                             <Button type="submit">README</Button>
                           </div>
