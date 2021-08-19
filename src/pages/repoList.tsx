@@ -1,4 +1,4 @@
-import RepoList from "../components/RepoList";
+import RepoList from "./RepoList/Repositories";
 
 const repoList = () => {
   return <RepoList />;

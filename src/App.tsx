@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import SearchAppBar from "./components/Navbar";
+import SearchAppBar from "./pages/Navbar/Navbar";
 import { AllProvider } from "./contexts";
 import home from "./pages/home";
 import repoList from "./pages/repoList";
