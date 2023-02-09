@@ -45,7 +45,6 @@ export function AllProvider({ children }: any) {
       setIsLoading(false)
       history.push(`/projects/${username}`)
     } catch (error: any) {
-      console.log(error)
       Swal.fire({
         icon: 'error',
         title: 'Something is wrong',
@@ -68,7 +67,6 @@ export function AllProvider({ children }: any) {
       setIsLoading(false)
       history.push(`/projects/${username}/${value}/readme`)
     } catch (error: any) {
-      console.log(error)
       Swal.fire({
         icon: 'error',
         title: 'Something is wrong',
